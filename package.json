@@ -1,0 +1,23 @@
+{
+  "name": "css-js-boilerplate",
+  "author": "Vaibhav Sompura",
+  "license": "ISC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build --base=./",
+    "serve": "vite preview"
+  },
+  "keywords": [],
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "postcss-preset-env": "^7.7.1",
+    "vite": "^2.9.10 || >2.0.0-alpha"
+  }
+}
